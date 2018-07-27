@@ -156,6 +156,94 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-常用常识/关于MAC非官方下载的软件无法打开的问题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/07/27/常用常识/关于MAC非官方下载的软件无法打开的问题/">关于MAC非官方下载的软件无法打开的问题</a>
+    </h1>
+  
+
+        
+        <a href="/2018/07/27/常用常识/关于MAC非官方下载的软件无法打开的问题/" class="archive-article-date">
+  	<time datetime="2018-07-27T07:04:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-27</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>我们在MAC下安装一些软件时提示”来自身份不明开发者”，其实这是MAC新系统启用了新的安全机制。默认只信任 <strong>Mac App Store</strong> 下载的软件和拥有开发者 ID 签名的应用程序。换句话说就是 MAC 系统默认只能安装靠谱渠道（有苹果审核的 <strong>Mac App Store</strong>）下载的软件或被认可的人开发的软件。<br>这当然是为了用户不会稀里糊涂安装流氓软件中招，但没有开发者签名的 “老实软件” 也受影响了，安装就会弹出下图所示警告框：“打不开 xxx，因为它来自身份不明的开发者”。<br><strong>出现这个问题的解决方法有2种：</strong></p>
+<ol>
+<li>最简单的方式：按住Control后，再次点击软件图标，即可。</li>
+<li>修改系统配置：系统偏好设置… -&gt; 安全性与隐私。</li>
+</ol>
+<p><strong>系统偏好设置</strong></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2461189-8c307f909e2e0feb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="系统偏好设置.png"></p>
+<p><strong>安全与隐私</strong></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2461189-846430f87c77c0a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="安全性与隐私.png"></p>
+<p>点击那个锁 输入密码(MAC的登录密码)解锁<br>然后点击<strong>修改为任何来源</strong></p>
+<p>#PS当发现没有这个任何来源时（macOS Sierra 10.12）,打开终端，执行<code>sudo spctl --master-disable</code>即可</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Mac</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">软件安装</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/07/27/常用常识/关于MAC非官方下载的软件无法打开的问题/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-MyOne" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -310,6 +398,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Mac</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">软件安装</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
